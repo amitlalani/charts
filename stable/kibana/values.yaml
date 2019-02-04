@@ -22,6 +22,7 @@ files:
     server.name: kibana
     server.host: "0"
     elasticsearch.url: http://elasticsearch:9200
+    elasticsearch.requestTimeout: "180000"
 
     ## Custom config properties below
     ## Ref: https://www.elastic.co/guide/en/kibana/current/settings.html
